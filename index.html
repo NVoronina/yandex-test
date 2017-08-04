@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Yandex</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<form id="myForm" method="post" action="response/success.json">
+    <label for="fio">Full name
+        <input type="text" name="fio" id="fio" value="Воронина Наталья Вячеславовна">
+    </label>
+    <label for="email">Email
+        <input type="text" name="email" id="email" value="nat@ya.ru">
+    </label>
+    <label for="phone">Phone
+        <input type="text" name="phone" id="phone" value="+7(911)111-11-11">
+    </label>
+    <input id="submitButton" type="submit">
+</form>
+<div id="resultContainer"></div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
